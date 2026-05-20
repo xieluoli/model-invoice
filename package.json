@@ -1,0 +1,43 @@
+{
+  "name": "model-invoice",
+  "version": "0.1.0",
+  "description": "一键生成 Claude Code 用量小票 (HTML/PNG/PDF)",
+  "type": "module",
+  "bin": {
+    "model-invoice": "./bin/model-invoice.mjs"
+  },
+  "files": [
+    "bin",
+    "dist",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "start": "node bin/model-invoice.mjs",
+    "prepublishOnly": "npm run build"
+  },
+  "dependencies": {
+    "commander": "^12.1.0",
+    "picocolors": "^1.1.0"
+  },
+  "optionalDependencies": {
+    "playwright": "^1.45.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.0",
+    "typescript": "^5.5.0"
+  },
+  "engines": {
+    "node": ">=18.17"
+  },
+  "keywords": [
+    "claude-code",
+    "usage",
+    "invoice",
+    "receipt",
+    "cli"
+  ],
+  "author": "xieluoli <sakanastar22@gmail.com>",
+  "license": "MIT"
+}
