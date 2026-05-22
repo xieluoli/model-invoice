@@ -4,7 +4,7 @@
   "description": "一键生成 Claude Code 用量小票 (HTML/PNG/PDF)",
   "type": "module",
   "bin": {
-    "model-invoice": "./bin/model-invoice.mjs"
+    "model-invoice": "bin/model-invoice.mjs"
   },
   "files": [
     "bin",
