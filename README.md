@@ -1,6 +1,13 @@
 # model-invoice
 
+[![npm version](https://img.shields.io/npm/v/model-invoice.svg)](https://www.npmjs.com/package/model-invoice)
+[![npm downloads](https://img.shields.io/npm/dm/model-invoice.svg)](https://www.npmjs.com/package/model-invoice)
+[![license](https://img.shields.io/npm/l/model-invoice.svg)](https://www.npmjs.com/package/model-invoice)
+
 一键生成 Claude Code 用量小票（HTML / PNG / PDF）。视觉风格借鉴 [`cc-router`](https://github.com/finch-xu/cc-router) 的"暖米色纸张 + monospace"小票外观，但内容只聚焦 Claude Code 原生 usage 数据。
+
+- npm：<https://www.npmjs.com/package/model-invoice>
+- 仓库：<https://github.com/xieluoli/model-invoice>
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/xieluoli/model-invoice/main/docs/example.png" alt="model-invoice 示例小票" width="320">
@@ -85,6 +92,10 @@ npx playwright install chromium
 - 内置 Anthropic 官方价目表（USD per 1M tokens）
 - 价格仅供参考，不构成账单凭据
 - 支持 `--rates` 传入自定义价目表 JSON 覆盖
+
+## Changelog
+
+- **0.1.0** (2026-05-20) — 首发到 npm。支持 HTML/PNG/PDF 输出，按 day / session / project 聚合，color / mono 双主题，内置 Anthropic 官方价目表。
 
 ## License
 
