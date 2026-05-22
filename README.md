@@ -3,7 +3,7 @@
 一键生成 Claude Code 用量小票（HTML / PNG / PDF）。视觉风格借鉴 [`cc-router`](https://github.com/finch-xu/cc-router) 的"暖米色纸张 + monospace"小票外观，但内容只聚焦 Claude Code 原生 usage 数据。
 
 <p align="center">
-  <img src="docs/example.png" alt="model-invoice 示例小票" width="320">
+  <img src="https://raw.githubusercontent.com/xieluoli/model-invoice/main/docs/example.png" alt="model-invoice 示例小票" width="320">
 </p>
 
 ## 安装与使用
